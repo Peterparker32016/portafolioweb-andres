@@ -1,0 +1,305 @@
+@import url('https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "SUSE", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+body{
+    background-color: black;
+}
+
+
+header{
+    background-color: #171f26d3;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    text-align: center;
+    gap: 20px;
+    height: 70px;
+}
+
+.imagen-1{
+    padding-left: 20px;
+}
+
+h1{
+    font-size: 2.1rem;
+    font-weight: 900;
+    color: wheat;
+}
+
+/*main*/
+main{
+    display: grid;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.contenedor-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.parrafo{
+    color: white;
+}
+
+.imagen-andres{
+    width: 80px;
+    height: 80px;
+    border-radius: 100px;
+    border: 3px solid lightblue;
+}
+
+.h2-1{
+    color: wheat;
+}
+
+
+.contenedor-4{
+    margin-top: 15px;
+}
+
+.contenedor-a{
+    margin: 6px;
+}
+
+.contenedor-5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    gap: 30px;
+}
+
+.strong-2{
+    color: rgb(79, 79, 248);
+}
+
+.parrafo-4{
+    color: white;
+    font-weight: 700;
+}
+
+.contenedor-6{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.parrafo-5{
+    color: whitesmoke;
+    width: 480px;
+    text-align: start;
+    font-size: 1.2rem;
+    font-weight: 100;
+}
+
+
+/*twich*/
+.contenedor-13{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.boton-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid purple;
+    border-radius: 10px;
+    height: 60px;
+    width: 450px;
+    background-color: black;
+    gap: 20px;
+    cursor: pointer;
+}
+
+.boton-1:hover{
+    background-color: rgb(54, 54, 235);
+}
+
+.parrafo--1{
+    color: wheat;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.contenedor-16{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.boton-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgb(46, 46, 204);
+    border-radius: 15px;
+    height: 60px;
+    width: 400px;
+    background-color: black;
+    gap: 20px;
+    cursor: pointer;
+    font-weight: 600;
+    margin-right: 70px;
+}
+
+.boton-2:hover{
+    background-color: rgb(54, 54, 235);
+}
+
+.contenedor-17{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.parrafo-6{
+    text-align: start;
+    color: wheat;
+}
+
+/*contenedor-8*/
+
+.h2-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: wheat;
+    font-size: 2rem;
+    font-weight: 900;
+    margin-right: 310px;
+}
+
+.h2-2-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: wheat;
+    font-size: 2rem;
+    font-weight: 900;
+    margin-right: 310px;
+}
+
+.contenedor-9{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    gap: 40px;
+}
+
+.imgs-1{
+    width: 110px;
+}
+
+/*contenedor-22*/
+.contenedor-22{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+
+
+.contenedor-20{
+    background-color: darkgray;
+    border-radius: 10px;
+    width: 200px;
+    text-align: center;
+}
+
+.parrafo-7{
+    color: white;
+    text-align: center;
+}
+
+/*content-1*/
+.gmail{
+    width: 25px;
+}
+
+.formulario{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.input-1{
+    width: 300px;
+    height: 40px;
+    border: 2px solid rgb(70, 70, 206);
+}
+
+.boton-4{
+    height: 40px;
+    width: 150px;
+    color: wheat;
+    background-color: rgb(70, 70, 206);
+    border: none;
+    font-size: 1.3rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+/*footer*/
+.footer{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.contenedor-10{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.contenedor-11{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.contenedor-12{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 20px;
+}
+
+.strong-1{
+    color: cornflowerblue;
+}
+
+.parrafo-3{
+    color: white;
+    font-size: 1rem;
+    font-weight: 700;
+}
